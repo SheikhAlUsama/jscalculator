@@ -1,0 +1,29 @@
+body {
+    background-image: url("bg3.jpg");
+}
+
+#answer {
+    width: 350px;
+    border-radius: 13px;
+    box-shadow: inset 5px 5px 3px grey , -5px -5px -3px white;
+}
+.calculator {
+    background: rgb(212, 211, 240);
+    padding: 10px;
+    display: inline-block;
+    border-radius: 20px;
+
+}
+input {
+    font-size: 28px;
+    width: 75px;
+    height: 65px;
+    margin: 7px;
+    border-radius: 12px;
+    box-shadow: 7x 7px 4px gray , -7px -7px -4px white;
+    background:  rgb(212, 211, 240);
+    outline : none;
+}
+input:hover{
+    box-shadow:inset 5px 5px 5px grey,inset -5px -5px 5px white;
+}
